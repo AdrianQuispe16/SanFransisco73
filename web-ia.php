@@ -9,9 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
-    <?php
-    require 'views/header.php';
-    ?>
+<header>
+    <div class="nav-bar">
+        <a href="#home" class="logo"><img src="resources/images/LogoSF3.png" alt=""></a>
+        <div class="navigation">
+            <div class="nav-items">
+                <div class="nav-close-btn"></div>
+                <a href="index.php#nosotros">Nosotros</a>
+                <a href="index.php#services">Servicios</a>
+                <a href="index.php#reserva">Reservar cita</a>
+                <a href="web-ia.php">IA</a>
+            </div> 
+        </div> 
+        <div class="navigation2">
+            <div class="nav-items2">
+                <a href="Login_Registro.php">Iniciar Sesión</a>
+                <a class="button-signup" href="Login_Registro.php">Registrar</a>
+            </div>
+        </div>
+        <div class="nav-menu-btn"></div>  
+    </div>
+</header>
     <section class="ia">
         <div class="ia-container">
             <div class="info paragraph">
@@ -19,7 +37,7 @@
                 <div class="flex-center">
                     <h2 style="--d: .1s;" class="dos">Recomendación de cortes de cabello Escaneo craneal <spam >usando IA</spam></h2>
                 </div>
-                <a style="--d: .2s;" class="button-signup tres" href="Int-Art.php">Comenzar ahora</a>
+                <a style="--d: .2s;" class="button-signup tres" href="Login_Registro.php">Comenzar ahora</a>
                 <p style="--d: .3s; letter-spacing:3px" class="uno"> Uso gratuito para todos los clientes | Registrate y Obten 3 pruebas gratuitas</p>
             </div>
         </div>
